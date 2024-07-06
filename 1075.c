@@ -5,17 +5,13 @@ int main (){
 int N1;
 int N2;
 
-N1 = 1;
-N2 <= 10000;
-
-scanf("%d", &N1);
-
-while(N1 % N2 == 2){
-    printf("%d", N1);
-    N2++;
+for(N1 = 0; N1 < 10000; N1++){
+    scanf("%d", &N2);
+    if(N1 % N2 == 2){
+        printf("%d\n", N1);
+    }
 
 }
-
 
 return 0;
 
